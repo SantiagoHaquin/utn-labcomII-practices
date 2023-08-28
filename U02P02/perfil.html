@@ -1,0 +1,143 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        table {
+            width: 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/action.php">
+
+        <center>
+            <table>
+                <caption>
+                    <h1>Perfil</h1>
+                </caption>
+                <tr>
+
+
+                    <th>
+                        <center><label for="nombre">Ingrese su nombre completo:</label></center>
+                        <input type="text" name="nombre" id="nombre">
+                        <br>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <center><label for="email">Direccion de correo electronico: </label></center>
+                        <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com">
+                        <br>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <center><label for="edad">Ingrese su edad: </label></center>
+                        <input type="number" name="edad" id="edad">
+                        <br>
+                    </th>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <center><label for="nacionalidad">Nacionalidad: </label></center>
+                        <select name="nacionalidad" id="nacionalidad">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Bolivia">Bolivia</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Ecuador">Ecuador</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="Paraguay">Paraguay</option>
+                            <option value="Peru">Peru</option>
+                            <option value="Uruguay">Uruguay</option>
+                            <option value="Venezuela">Venezuela</option>
+                        </select>
+                        <br>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <center><label for="condicion">Ingrese su condicion laboral: </label></center>
+                        <select name="condicion" id="condicion">
+                            <option value="desempleado">desempleado</option>
+                            <option value="busquedalaboral">En busqueda laboral</option>
+                            <option value="parttime">Trabajo part time</option>
+                            <option value="fulltime">Trabajo full time</option>
+                        </select>
+                        <br>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <center><label for="gustospersonales">Gustos personales: </label></center>
+                        
+                        
+                        
+                        <li>
+                            <label for="gustosmusicales">Gustos musicales: </label>
+                            <input type="text" name="gustosmusicales" id="gustosmusicales">
+                        </li>
+                        
+                        <li>
+                            <label for="comidas">Comidas preferidas: </label>
+                            <select name="comidas" id="comidas">
+                                <option value="minutas">Minutas</option>
+                                <option value="pastas">Pastas</option>
+                                <option value="parrilla">Parrilla</option>
+                                <option value="comidarapida">Comida rapida</option>
+
+                            </select>
+                        </li>
+                        
+                        
+                        <br>
+                    </th>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <center>
+                            <input type="submit" name="enviar" id="enviar">
+                        </center>
+                    </th>
+
+
+                </tr>
+                <tr>
+
+                    <th>
+                        <center>
+                            <label for="recordar">Desea recordar su infromacion?</label>
+                            <input type="checkbox" name="recordar" id="recordar">
+                        </center>
+                    </th>
+
+
+                </tr>
+            </table>
+        </center>
+    </form>
+
+</body>
+
+</html>
