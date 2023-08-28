@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table {
+        width: 70%;
+        height: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <center><h1>Log in.</h1></center>
+    <center><p>Para iniciar sesion debe ingresar su usuario y contraseña en los campos que lo indican y seleccionar si desea que la pagina recuerde su infromacion.</center>
+        <hr>
+    </p>
+    <center>
+    <table>
+        <form>
+            <tr>
+                <th>
+                    <center><label for="nombre">Ingrese su usuario:</label></center>
+                <input type="text" name="usuario" id="usuario">
+                <br>
+                </th>
+            </tr>
+            
+            <tr>
+                <th>
+                    <center><label for="nombre">Ingrese su contraseña:</label></center>
+                <input type="password" name="pass" id="pass">
+                <br>
+                </th>
+            </tr>
+                
+            <tr>
+                <th>
+                    <center>
+                    <input type="submit" name="enviar" id="enviar">
+                    </center>
+                </th>
+                
+
+            </tr>
+            <tr>
+                
+                <th>
+                    <center>
+                    <label for="recordar">Desea recordar su infromacion?</label>
+                    <input type="checkbox" name="recordar" id="recordar">
+                    </center>
+                </th>
+                
+                
+            </tr>
+                
+            
+            
+        </form>
+    </table>  
+</center>
+</body>
+</html>
