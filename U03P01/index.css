@@ -1,0 +1,41 @@
+@font-face {
+    font-family: sans-serif;
+    src: url();
+}
+
+h1 {
+    color: #242424;
+    font-size: 24px;
+}
+
+h2 {
+    color: #242424;
+    font-size: 20px;
+}
+
+p{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;;
+}
+
+ul{
+    font-family: monospace;
+    font-size: 18px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 650px;
+    border: 2px solid blue;
+    /*border-width: 2px;
+    border-radius: 0px;
+    border-color: blue;
+    border-style: solid;*/
+}
+
+a.li{
+    color: rgb(202, 124, 6);
+
+}
+
+/*INCOMPLETO*/
