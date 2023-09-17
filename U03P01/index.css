@@ -20,6 +20,7 @@ p{
 }
 
 ul{
+    width: 40%;
     font-family: monospace;
     font-size: 18px;
     padding: 20px;
@@ -27,15 +28,28 @@ ul{
     margin-left: 100px;
     margin-right: 650px;
     border: 2px solid blue;
-    /*border-width: 2px;
-    border-radius: 0px;
-    border-color: blue;
-    border-style: solid;*/
 }
 
-a.li{
-    color: rgb(202, 124, 6);
-
+#neuquen{
+    color: green;
+}
+#rionegro{
+    color: green;
 }
 
-/*INCOMPLETO*/
+#neuquen{
+    color: green;
+}
+
+#bsas{
+    color: rgb(241, 138, 21);
+}
+#santacruz{
+    color: rgb(241, 138, 21);
+}
+
+#tierradelfuego{
+    color: rgb(241, 138, 21);
+}
+
+/* INCOMPLETO */
